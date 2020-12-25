@@ -34,7 +34,7 @@ function App() {
   }
 
   useEffect(() => {
-    Axios.get('http://js-mern-beginners.herokuapp.com//read')
+    Axios.get('http://js-mern-beginners.herokuapp.com/read')
       .then((response)=> {
         setListOfFriends(response.data);
       }).catch(() => {
